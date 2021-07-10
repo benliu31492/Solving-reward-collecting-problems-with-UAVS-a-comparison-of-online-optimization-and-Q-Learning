@@ -30,7 +30,7 @@ Our Online Optimization codes are named similarly to our Deep Q-Learning codes, 
 * current_adversary_location - initial locations of the adversaries(ensure the adversaries start in a cell adjacent to the flag)
 * for loop with variable e - number of experimentation repetitions.
 
-### $\epsilon$-greedy tabular Q-Learning
+### Epsilon-Greedy Tabular Q-Learning
 
 
 # Resources
