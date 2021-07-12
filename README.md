@@ -32,6 +32,14 @@ Our Online Optimization codes are named similarly to our Deep Q-Learning codes, 
 
 ### Epsilon-Greedy Tabular Q-Learning
 
+The Epsilon-Greedy Tabular Q-Larning model is supported by two Python script files.  One code supports the 5x5 grid environment and the other file supports the 9x9 grid environment.  The initial sections of the code are used to create a Python environment class and agent class.  The final part of the code contains a for loop that trains the UAV and provides text file results of the training to include the Q-Learning Lookup Table results.  Variables that can be chnaged for experimentation purposes include:
+
+* rewards (flags) - location and amounts
+* maze_size - size of the grid environment
+* adversary_start_position - initial location of the adversary (need to ensure adversary is located adjacent to flag)
+* adversary_movements - toggle to move advesaries in a clockwise, counter-clockwise, or random pattern
+* iteration number - number of epochs used for training
+* alpha-decay tunning parameter - determines the speed of alpha-decay which decides whether a UAV step is exploration or exploitation.  The tunning parameter should be adjusted to balance with the total number of epochs used for training  
 
 # Resources
 
